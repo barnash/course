@@ -22,7 +22,7 @@ Static variables and methods are also stored in a dict:
 	>>> print Foo.bar
 	<unbound method Foo.bar>
 	>>> print Foo.__dict__['bar']
-	<unbound method Foo.bar>
+	<function bar at 0x10a625410>
 
 ---
 
